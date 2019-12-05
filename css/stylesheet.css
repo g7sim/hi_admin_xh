@@ -1,0 +1,70 @@
+div#hi_adm_pluginmanager {
+    border: 0 none;
+    color: #333333;
+    margin: 0;
+    padding: 12px 0;
+}
+div#hi_adm_pluginmanager table {
+    border-collapse: collapse;
+    margin: 0;
+    max-width: 700px;
+    padding: 0;
+    width: 100%;
+    text-align: left;
+}
+div#hi_adm_pluginmanager tr:hover {
+    background: none repeat scroll 0 0 #E7E7E7;
+}
+div#hi_adm_pluginmanager label:hover {
+    color: #CC6600;
+    text-decoration: underline;
+}
+div#hi_adm_pluginmanager th {
+    border-bottom: 1px dotted #666666;
+    padding: 5px 8px 8px 0;
+    vertical-align: top;
+}
+div#hi_adm_pluginmanager td {
+    border-bottom: 1px dotted #666666;
+    padding: 5px 8px 5px 0;
+    vertical-align: top;
+}
+div#hi_adm_pluginmanager a {
+/*    font-weight: bold;*/
+}
+div#hi_adm_pluginmanager a:link {
+/*    color: #336699;*/
+    text-decoration: none;
+}
+div#hi_adm_pluginmanager a:visited {
+/*    color: #336699;*/
+    text-decoration: none;
+}
+div#hi_adm_pluginmanager a:hover {
+/*    color: #CC6600;*/
+    text-decoration: none;
+}
+div#hi_adm_pluginmanager a:active {
+/*    color: #CC6600;*/
+    text-decoration: none;
+}
+div#hi_adm_pluginmanager a:focus {
+/*    color: #CC6600;*/
+    text-decoration: none;
+}
+div#hi_adm_pluginmanager span.hi_adm_disabled {
+    font-style: italic;
+    font-weight: bold;
+    color: #999999;
+}
+
+div#hi_adm_pluginmanager a span.hi_adm_hidden {
+    font-style: italic;
+    font-weight: bold;
+    color: #FF9C2A;
+}
+
+div#hi_adm_pluginmanager a span.hi_adm_active {
+    font-weight: bold;
+    color: #008000;
+}
