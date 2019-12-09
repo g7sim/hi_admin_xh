@@ -11,6 +11,6 @@ $plugin_cf['hi_admin']['admintemplate_exclude']="";
 $plugin_cf['hi_admin']['templateeditor_activate']="true";
 $plugin_cf['hi_admin']['templateeditor_syntaxcheck']="";
 $plugin_cf['hi_admin']['pluginmanager_activate']="true";
-$plugin_cf['hi_admin']['pluginmanager_ignore']="";
+$plugin_cf['hi_admin']['pluginmanager_ignore']="hi_admin";
 $plugin_cf['hi_admin']['pluginmanager_hide']="";
 $plugin_cf['hi_admin']['usermenu_activate']="";

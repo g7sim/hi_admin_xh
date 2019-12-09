@@ -30,6 +30,7 @@ $plugin_tx['hi_admin']['cf_admintemplate_exclude']="Eine mittels Kommas separier
 $plugin_tx['hi_admin']['cf_templateeditor_activate']="Möchten Sie das Modul \"Template-Editor\" verwenden?";
 $plugin_tx['hi_admin']['cf_templateeditor_syntaxcheck']="Aktiviert eine einfache und experimentelle Fehlerprüfung beim Speichern einer Template-Datei. Bei fatalen PHP-Fehlern wird der Fehler angezeigt, das Template aber nicht abgespeichert. Neu laden der Seite bleibt dann möglich.";
 $plugin_tx['hi_admin']['cf_pluginmanager_activate']="Möchten Sie das Modul \"Plugin-Manager\" verwenden?";
+$plugin_tx['hi_admin']['cf_pluginmanager_ignore']="Eine mittels Kommas separierte Liste mit Pluginnamen, die von der Bearbeitung im Pluginmanager ausgeschlossen sind.";
 $plugin_tx['hi_admin']['cf_usermenu_activate']="Möchten Sie das Modul \"Benutzer-Menü\" verwenden?";
 
 ?>

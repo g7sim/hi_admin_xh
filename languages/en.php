@@ -30,6 +30,7 @@ $plugin_tx['hi_admin']['cf_admintemplate_exclude']="A comma separated list with 
 $plugin_tx['hi_admin']['cf_templateeditor_activate']="Do you want to use the module  \"Template-Editor\"?";
 $plugin_tx['hi_admin']['cf_templateeditor_syntaxcheck']="Activates a simple and experimental error-check while saving a template-file. If fatal errors occur, you'll get the messages and the site crashes but the template gets not saved. So reloading the page stays possible.";
 $plugin_tx['hi_admin']['cf_pluginmanager_activate']="Do you want to use the module \"Plugin-Manager\"?";
+$plugin_tx['hi_admin']['cf_pluginmanager_ignore']="A comma separated list with pluginnames ignored from pluginmanager.";
 $plugin_tx['hi_admin']['cf_usermenu_activate']="Do you want to use the module \"User-Menu\"?";
 
 ?>
