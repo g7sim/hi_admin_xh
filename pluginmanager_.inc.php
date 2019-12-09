@@ -182,8 +182,7 @@ $hi_admHide = hi_adm_PluginsToHide();
 $hi_admTxPlugins = $tx['editmenu']['plugins'];
 
 $hi_admJS = <<<EOS
-<script type="text/javascript">
-/* <![CDATA[ */
+<script>
 jQuery(document).ready(function($){
     $("#xh_adminmenu ul li span:contains($hi_admTxPlugins)").replaceWith("<a href=\"$sn?hi_admin&amp;admin=pluginmanager&amp;action=pm_edit\">$hi_admTxPlugins</a>");
     var toHide = $hi_admHide;
@@ -193,7 +192,6 @@ jQuery(document).ready(function($){
         });
     };
 });
-/* ]]> */
 </script>
 EOS;
 

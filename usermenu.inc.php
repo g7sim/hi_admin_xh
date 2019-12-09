@@ -14,12 +14,10 @@ if ($plugin_tx['hi_admin']['usermenu'] != '') {
     $hi_admUserMenu = "'" . rmanl($plugin_tx['hi_admin']['usermenu']) . "'";
 
     $hi_admJS = <<<EOS
-<script type="text/javascript">
-/* <![CDATA[ */
+<script>
 jQuery(document).ready(function($){
     $("#xh_adminmenu ul li:has(a[href*='&logout'])").before($hi_admUserMenu);
 });
-/* ]]> */
 </script>
 EOS;
 

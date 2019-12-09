@@ -150,13 +150,11 @@ function hi_adm_asString($arr, $varName = 'cf') {
 $hi_admTxPlugins = $tx['editmenu']['plugins'];
 
 $hi_admJS = <<<EOS
-<script type="text/javascript">
-/* <![CDATA[ */
+<script>
 jQuery(document).ready(function($){
     $("#xh_adminmenu ul li a:contains($hi_admTxPlugins)").replaceWith("<a href=\"$sn?hi_admin&amp;admin=pluginmanager&amp;action=pm_edit\">$hi_admTxPlugins</a>");
     $("#xh_adminmenu ul li span:contains($hi_admTxPlugins)").replaceWith("<a href=\"$sn?hi_admin&amp;admin=pluginmanager&amp;action=pm_edit\">$hi_admTxPlugins</a>");
 });
-/* ]]> */
 </script>
 EOS;
 
