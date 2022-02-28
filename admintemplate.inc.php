@@ -35,7 +35,7 @@ function hi_adm_CheckRequest() {
             $_SESSION['hi_admGetVars'] = array_merge($_SESSION['hi_admGetVars'], $req);
         }
         if ($plugin_cf['hi_admin']['admintemplate_configuration'] == 'true') {
-            $req = array('settings', 'validate', 'sysinfo', 'xh_backups', 'xh_pagedata');
+            $req = array('settings', 'validate', 'sysinfo', 'xh_backups', 'xh_pagedata', 'xh_change_password');
             $_SESSION['hi_admGetVars'] = array_merge($_SESSION['hi_admGetVars'], $req);
         }
     }
