@@ -6,4 +6,4 @@ P.S. The plugin needs the installation directory hi_admin  !!!
 
 You must make under Configuration -> Admin-menu the entry hi_admin !!!
 
-You can configiure it under plugins -> Hi_admin -> configuration
+You can configure it under plugins -> Hi_admin -> configuration
