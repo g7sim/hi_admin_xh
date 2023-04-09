@@ -29,7 +29,7 @@ if (!include_once($pth['folder']['plugins'] . 'jquery/jquery.inc.php')) {
 }
 include_jQuery();
 
-if ($plugin_cf['hi_admin']['pluginmanager_activate'] == 'true') {
+if ($plugin_cf['hi_admin']['pluginmanager_activate'] ?? '' == 'true') {
     if (version_compare(CMSIMPLE_XH_VERSION, 'CMSimple_XH 1.6.2', '<')) {
         //deprecated, only for XH 1.6 - 1.6.1
         include_once $pth['folder']['plugins'] . 'hi_admin/pluginmanager_.inc.php';
@@ -38,13 +38,13 @@ if ($plugin_cf['hi_admin']['pluginmanager_activate'] == 'true') {
     }
 }
 
-if ($plugin_cf['hi_admin']['usermenu_activate'] == 'true')
+if ($plugin_cf['hi_admin']['usermenu_activate'] ?? '' == 'true')
     include_once $pth['folder']['plugins'] . 'hi_admin/usermenu.inc.php';
 
-if ($plugin_cf['hi_admin']['admintemplate_activate'] == 'true')
+if ($plugin_cf['hi_admin']['admintemplate_activate'] ?? '' == 'true')
     include_once $pth['folder']['plugins'] . 'hi_admin/admintemplate.inc.php';
 
-if ($plugin_cf['hi_admin']['templateeditor_activate'] == 'true') {
+if ($plugin_cf['hi_admin']['templateeditor_activate'] ?? '' == 'true') {
     include_once $pth['folder']['plugins'] . 'hi_admin/templateeditor.inc.php';
     //Stylesheet or template - editor requested?
     if (isset($_REQUEST['admfile']) && is_readable($pth['folder']['templates'] . $_REQUEST['admfile'])) {
